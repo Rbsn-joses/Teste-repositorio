@@ -1,6 +1,4 @@
 
-#baixar biblioteca requests
-# pip install requests
 contador = 0
 numero = 100
  while(contador < 100):

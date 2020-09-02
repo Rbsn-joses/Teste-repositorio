@@ -1,7 +1,8 @@
-
 contador = 0
 numero = 100
- while(contador < 100):
+
+
+while(contador < 100):
     primo = False
     for numero2 in range(2,numero):
         if(numero % numero2 == 0):

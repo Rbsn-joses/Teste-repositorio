@@ -1,10 +1,8 @@
 
 FROM python
-LABEL version="1.0.0" description="Programa para calculo de números primos" ma>
+LABEL version="1.0.0" description="Programa para calculo de números primos" 
 RUN pip install flask
 EXPOSE 80
-COPY primos.py /primos.py
-CMD ["python", "primos.py"]
-#sudo docker build -t robson/primos .
-#sudo docker run robson/primos 
-#Após os passos o programa é inicializado perfeitamente
+COPY Atividade1.py /Atividade1.py
+CMD ["python", "Atividade1.py"]
+
